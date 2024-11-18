@@ -4,6 +4,7 @@ import requests
 import pandas as pd
 
 # Загрузить переменные окружения из .env файла
+
 load_dotenv()
 
 API_KEY = os.getenv('OPENWEATHER_API_KEY')
